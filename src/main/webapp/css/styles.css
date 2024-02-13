@@ -1,0 +1,80 @@
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background: #3498db;
+    overflow: hidden;
+
+}
+
+.navbar a {
+    float: left;/*Float Next To Each Other*/
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+h1 {
+    color: #3498db;
+    text-align: center;
+}
+h2 {
+    color: #181a24;
+    text-align: center;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid #3498db;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+/* Color even rows */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Color odd rows */
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+/* Hover effect on table rows */
+table tr:hover {
+    background-color: #f0d6a5;
+}
+/* Style for active link */
+.navbar a.active {
+    background-color: #ddd;
+        color: #333;
+}
+
+
+
+
